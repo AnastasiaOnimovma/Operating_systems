@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ lab6_1.cpp -lpthread -o lab6_1
+./lab6_1
