@@ -1,0 +1,7 @@
+#!/bin/bash
+
+g++ lab9_2.cpp -lcap -o lab9_2
+sudo setcap cap_setfcap=+eip lab9_2
+getcap lab9_2
+./lab9_2 
+getcap lab9_2

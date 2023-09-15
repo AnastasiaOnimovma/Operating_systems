@@ -1,0 +1,7 @@
+#!/bin/bash
+
+g++ lab9_1.cpp  -o lab9_1
+sudo setcap cap_chown=+eip lab9_1
+#enter the username
+./lab9_1 juliamachine
+sudo setcap cap_chown=+eip lab9_1
